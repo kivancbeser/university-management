@@ -121,9 +121,19 @@ The app defines following CRUD APIs.
 | ------ | --- | ----------- | ------------------------- |
 | GET    | /professor | Get all professor | |
 | GET    | /professor/{id} | Get professor by id |
-| POST   | /professor | Create new professor  | 
+| POST   | /professor | Create new professor  | [JSON](#prefessortcreate) |
 | PUT    | /professor/{id} | Update professor | 
 | DELETE | /professor/{id} | Delete professor | 
+
+##### <a id="prefessortcreate">Create Professor -> /api/accounts</a>
+```json
+{
+    "name": "New Professor",
+    "departmentEntity": {
+        "id": 4
+    }
+}
+```
 
 ### Department
 
@@ -173,6 +183,7 @@ You can test them using postman.
 <!-- TODO -->
 ## TODO
 * Input Validations 
+* Add pagenumber for lazyload. 
 * More comment for spring side.
 * Add More Unit Test
 * Swagger
