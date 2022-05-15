@@ -121,14 +121,25 @@ The app defines following CRUD APIs.
 | ------ | --- | ----------- | ------------------------- |
 | GET    | /professor | Get all professor | |
 | GET    | /professor/{id} | Get professor by id |
-| POST   | /professor | Create new professor  | [JSON](#prefessortcreate) |
-| PUT    | /professor/{id} | Update professor | 
+| POST   | /professor | Create new professor  | [JSON](#prefessorcreate) |
+| PUT    | /professor/{id} | Update professor | [JSON](#prefessorupdate) |
 | DELETE | /professor/{id} | Delete professor | 
 
-##### <a id="prefessortcreate">Create Professor -> /api/accounts</a>
+##### <a id="prefessorcreate">Create Professor -> /professor</a>
 ```json
 {
     "name": "New Professor",
+    "departmentEntity": {
+        "id": 4
+    }
+}
+```
+
+##### <a id="prefessorupdate">Update Professor -> /professor/{id}</a>
+```json
+{
+    "id" : 10,
+    "name": "Updated Professor",
     "departmentEntity": {
         "id": 4
     }
