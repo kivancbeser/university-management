@@ -5,15 +5,11 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/kivancbeser/university-management">
-    <img src="logo.png" alt="Logo" width="80" height="80">
-  </a>
-  <h3 align="center">Spring Boot Crud Example</h3>
+  <h3 align="center">Spring Boot University Management</h3>
   <br />
  
   <p align="center">
     <br />
-    <a href="https://github.com/kivancbeser/spring-boot-crud-example-master/blob/master/ProjectDemo.mp4">View Demo Video</a>
     ·
     <a href="https://github.com//kivancbeser/university-management/issues">Report Bug</a>
     ·
@@ -87,42 +83,25 @@ git clone https://github.com/kivancbeser/university-management.git
 
 3. Start the Spring Boot Application
 
-### Installation For Frontend
-
-1. Change directory and go to task-vue-side
-```sh
-cd task-vue-side
-```
-
-2. npm install
-```sh
-npm install
-```
-
-3. npm run serve
-```sh
-npm run serve
-```
-
 ### Installation For Database
 1. Download and Install PostgreSQL
 ```sh
 Please check root and password for connecting java-side. If you choose different password, you have to change "application.properties" file.
 ```
-2. Run Create Database Script
+2. Create Empty Database 
 ```sh
-create database javatask;
+create database universitydb;
 ```
 
 4. Change postgresql username and password as per your installation
 
 + open `src/main/resources/application.properties`
-+ change `spring.datasource.username` and `spring.datasource.password` as per your mysql installation
++ change `spring.datasource.username` and `spring.datasource.password` as per your postgresql installation
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-1. After all installations start spring boot application, start vue project with "npm run serve" command and don't forget to start postgresql server.
+1. After all installations start spring boot application and don't forget to start postgresql server.
 
 2. Go to Postman and try it.
 
