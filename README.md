@@ -59,11 +59,6 @@ To get a local copy up and running follow these simple steps.
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
-* npm
-```sh
-npm install npm@latest -g
-```
-
 * Install JDK 1.8 version or more higher version.
 ```sh
 https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html
@@ -79,7 +74,7 @@ git clone https://github.com/kivancbeser/university-management.git
 
 1. Open the project in the IDE. (I Prefer Intellij Idea)
 
-2. Execute Maven Clean & Install
+2. Execute "mvn clean install -DskipTests:true" command should be run.
 
 3. Start the Spring Boot Application
 
@@ -88,9 +83,9 @@ git clone https://github.com/kivancbeser/university-management.git
 ```sh
 Please check root and password for connecting java-side. If you choose different password, you have to change "application.properties" file.
 ```
-2. Create Empty Database 
+2. After the installation you can run this script for create tables with in data.
 ```sh
-create database universitydb;
+`src/main/resources/create_db_with_data_script.sql
 ```
 
 4. Change postgresql username and password as per your installation
