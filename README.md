@@ -45,12 +45,16 @@
 It was created for the purpose of a web project from database to user. 
 You can see the done features in [Done](#done) sections.
 
-Design Considerations
+## Design Considerations
 When design the application, Although it is a simple application, I preferred to do it with hibernate.
 Because when a big project arrives, I think that using jdbc increases the maintenance cost in the future.
 
-Scalability
-When i want to increase the scalability, I can containerizing the application by using Docker.
+## Scalability
+When I want to increase the scalability, I can containerizing the application by using Docker.
+
+## Testing
+I preferred to write end-to-end tests and check whether the apis work correctly.
+I plan to add my unit tests that will provide at least 85% coverage to the project.
 
 Improvement
 You can see the done features in [Todo](#todo) sections.
