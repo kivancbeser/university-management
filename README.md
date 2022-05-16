@@ -17,8 +17,6 @@
   </p>
 </p>
 
-
-
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
@@ -42,6 +40,10 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+<a href="https://github.com/kivancbeser/university-management">
+      <img src="/searchRequest.jpg" alt="Demo Gif" width="500">
+ </a>
+ 
 It was created for the purpose of a web project from database to user. 
 You can see the done features in [Done](#done) sections.
 
@@ -245,7 +247,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Kıvanç Enes Beşer - [@Linkedin_handle](https://www.linkedin.com/in/kivancenesbeser/) - beserkivanc@gmail.com
 
-Project Link: [https://github.com/kivancbeser/spring-boot-crud-example-master](https://github.com/kivancbeser/spring-boot-crud-example-master)
+Project Link: [https://github.com/kivancbeser/university-management](https://github.com/kivancbeser/university-management)
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/kivancenesbeser
