@@ -29,7 +29,10 @@
   * [Installation](#installation)
 * [Usage](#usage)
 * [Explore Rest APIs](#explorerestapis)
-  * [Account](#account)
+  * [Professor](#professor)
+  * [Course](#course)
+  * [Schedule](#schedule)
+  * [Department](#course)
 * [Done](#done)
 * [TODO](#todo)
 * [Roadmap](#roadmap)
@@ -39,12 +42,26 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
- <a href="https://github.com/kivancbeser/university-management">
-      <img src="/screenshots/DemoApplication.gif" alt="Demo Gif" width="1600">
- </a>
+It was created for the purpose of a web project from database to user. 
+You can see the done features in [Done](#done) sections.
 
-It was created for the purpose of a web project from database to user. You can see the done features in [Done](#done) sections. 
+Design Considerations
+When design the application, Although it is a simple application, I preferred to do it with hibernate.
+Because when a big project arrives, I think that using jdbc increases the maintenance cost in the future.
 
+Scalability
+When i want to increase the scalability, I can containerizing the application by using Docker.
+
+Improvement
+You can see the done features in [Todo](#todo) sections.
+* Input Validations 
+* Swagger
+* Add pagenumber for lazyload. 
+* More comment for spring side.
+* Add More Unit Test
+* Swagger
+* Sonar
+* API Gateway(If caching, security and traceability are desired, one more layer can be added and an API Gateway)
 
 ### Built With
 
