@@ -65,6 +65,7 @@ You can see the done features in [Todo](#todo) sections.
 * Add More Unit Test
 * Swagger
 * Sonar
+* Authorization and Authentication.
 * API Gateway(If caching, security and traceability are desired, one more layer can be added and an API Gateway)
 
 ### Built With
