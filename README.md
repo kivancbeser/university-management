@@ -40,8 +40,8 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-<a href="https://github.com/kivancbeser/university-management">
-      <img src="/searchRequest.jpg" alt="Demo Gif" width="500">
+<a href="https://github.com/kivancbeser/university-management/searchRequest.jpg">
+      <img src="/searchRequest.jpg" alt="Search Api">
  </a>
  
 It was created for the purpose of a web project from database to user. 
