@@ -9,12 +9,14 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.*;
 
+/**
+ * Controller class for Professors
+ */
 @RestController
 @RequestMapping("/professor")
 public class ProfessorController {
 
     //@RequestParam(name = "page", required = false, defaultValue = AppConstants.DEFAULT_PAGE_NUMBER) Integer page,
-    @Autowired
     private ProfessorService professorService;
 
     public ProfessorController(ProfessorService professorService) {

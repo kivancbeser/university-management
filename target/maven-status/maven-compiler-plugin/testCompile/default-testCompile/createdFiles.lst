@@ -1,0 +1,6 @@
+com\developer\universitymanagement\CourseServiceControllerTest.class
+com\developer\universitymanagement\AbstractTest.class
+com\developer\universitymanagement\DepartmentServiceControllerTest.class
+com\developer\universitymanagement\UniversityManagementApplicationTests.class
+com\developer\universitymanagement\ScheduleServiceControllerTest.class
+com\developer\universitymanagement\ProfessorServiceControllerTest.class

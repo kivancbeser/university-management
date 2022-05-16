@@ -11,12 +11,14 @@ import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 
+/**
+ * Controller class for Departments
+ */
 @RestController
 @RequestMapping("/department")
 public class DepartmentController {
 
     //@RequestParam(name = "page", required = false, defaultValue = AppConstants.DEFAULT_PAGE_NUMBER) Integer page,
-    @Autowired
     private DepartmentService departmentService;
 
     public DepartmentController(DepartmentService departmentService) {

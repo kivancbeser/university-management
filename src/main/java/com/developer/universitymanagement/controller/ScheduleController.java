@@ -11,12 +11,14 @@ import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 
+/**
+ * Controller class for Schedules
+ */
 @RestController
 @RequestMapping("/schedule")
 public class ScheduleController {
 
     //@RequestParam(name = "page", required = false, defaultValue = AppConstants.DEFAULT_PAGE_NUMBER) Integer page,
-    @Autowired
     private ScheduleService scheduleService;
 
     public ScheduleController(ScheduleService scheduleService) {

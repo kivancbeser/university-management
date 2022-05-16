@@ -12,30 +12,48 @@ import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 
+/**
+ * Controller class for Courses
+ */
+
 @RestController
 @RequestMapping("/course")
 public class CourseController {
 
     //@RequestParam(name = "page", required = false, defaultValue = AppConstants.DEFAULT_PAGE_NUMBER) Integer page,
-    @Autowired
     private CourseService courseService;
 
     public CourseController(CourseService courseService) {
         this.courseService = courseService;
     }
 
+    /**
+     *
+     * @param id
+     * @return
+     */
     @GetMapping("/{id}")
     public Optional<CourseEntity> findCourseById(@PathVariable("id") Integer id){
         return courseService.findById(id);
     }
 
+    /**
+     *
+     * @param courseEntity
+     * @return
+     */
     @PostMapping
     public CourseEntity saveCourse(@RequestBody CourseEntity courseEntity ) {
         return courseService.saveCourse(courseEntity);
     }
 
+    /**
+     *
+     * @param id
+     * @param courseEntity
+     * @return
+     */
     @PutMapping("/{id}")
-    //@PreAuthorize("hasRole('USER') or hasRole('ADMIN')")
     public ResponseEntity<CourseEntity> updateCourse(@PathVariable("id") Integer id, @RequestBody CourseEntity courseEntity ) {
         try {
             CourseEntity updateCourse= courseService.updateCourse(id,courseEntity);
@@ -45,6 +63,11 @@ public class CourseController {
         }
     }
 
+    /**
+     *
+     * @param id
+     * @return
+     */
     @DeleteMapping("/{id}")
     public  ResponseEntity<Map<String, Boolean>> deleteCourse(@PathVariable(value = "id") Integer id) {
         try {

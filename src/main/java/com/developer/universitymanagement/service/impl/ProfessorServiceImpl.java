@@ -12,12 +12,15 @@ import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 
+/**
+ * Service Implementation Class for Professor Service
+ */
 @Service
 public class ProfessorServiceImpl implements ProfessorService {
 
-    @Autowired
     private ProfessorRepository professorRepository;
 
+    @Autowired
     public ProfessorServiceImpl(ProfessorRepository professorRepository) {
         this.professorRepository = professorRepository;
     }

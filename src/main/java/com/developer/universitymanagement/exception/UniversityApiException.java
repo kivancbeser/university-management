@@ -2,6 +2,9 @@ package com.developer.universitymanagement.exception;
 
 import org.springframework.http.HttpStatus;
 
+/**
+ * Custom Exception class for Api Exception
+ */
 public class UniversityApiException extends RuntimeException {
 
     private static final long serialVersionUID = -6593330219878485669L;

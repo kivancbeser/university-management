@@ -12,12 +12,15 @@ import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 
+/**
+ * Service Implementation Class for Department Service
+ */
 @Service
 public class DepartmentServiceImpl implements DepartmentService {
 
-    @Autowired
     private DepartmentRepository departmentRepository;
 
+    @Autowired
     public DepartmentServiceImpl(DepartmentRepository departmentRepository) {
         this.departmentRepository = departmentRepository;
     }

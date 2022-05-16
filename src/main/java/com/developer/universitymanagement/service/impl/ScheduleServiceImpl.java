@@ -12,12 +12,15 @@ import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 
+/**
+ * Service Implementation Class for Schedule Service
+ */
 @Service
 public class ScheduleServiceImpl implements ScheduleService {
 
-    @Autowired
     private ScheduleRepository scheduleRepository;
 
+    @Autowired
     public ScheduleServiceImpl(ScheduleRepository scheduleRepository) {
         this.scheduleRepository = scheduleRepository;
     }

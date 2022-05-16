@@ -2,6 +2,9 @@ package com.developer.universitymanagement.utils;
 import com.developer.universitymanagement.exception.UniversityApiException;
 import org.springframework.http.HttpStatus;
 
+/**
+ * This class written for using pagination validate.
+ */
 public class AppUtils {
     public static void validatePageNumberAndSize(int page, int size) {
         if (page < 0) {

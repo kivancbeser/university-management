@@ -2,6 +2,9 @@ package com.developer.universitymanagement.exception;
 
 import java.util.Date;
 
+/**
+ * Custom Exception class
+ */
 public class ErrorDetails {
     private Date timestamp;
     private String message;
