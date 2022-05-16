@@ -176,19 +176,19 @@ The app defines following CRUD APIs.
 
 | Method | Url | Description | Sample Valid Request Body |
 | ------ | --- | ----------- | ------------------------- |
-| GET    | /course/{id} | Get professor by id |
-| POST   | /course | Create new professor  | 
-| PUT    | /course/{id} | Update professor | 
-| DELETE | /course/{id} | Delete professor | 
+| GET    | /course/{id} | Get course by id |
+| POST   | /course | Create new course  | 
+| PUT    | /course/{id} | Update course | 
+| DELETE | /course/{id} | Delete course | 
 
 ### Schedule
 
 | Method | Url | Description | Sample Valid Request Body |
 | ------ | --- | ----------- | ------------------------- |
-| GET    | /schedule/{id} | Get professor by id |
-| POST   | /schedule | Create new professor  | 
-| PUT    | /schedule/{id} | Update professor | 
-| DELETE | /schedule/{id} | Delete professor | 
+| GET    | /schedule/{id} | Get schedule by id |
+| POST   | /schedule | Create new schedule  | 
+| PUT    | /schedule/{id} | Update schedule | 
+| DELETE | /schedule/{id} | Delete schedule | 
 
 ### Spesific Search
 
@@ -211,11 +211,14 @@ You can test them using postman.
 <!-- TODO -->
 ## TODO
 * Input Validations 
+* Swagger
 * Add pagenumber for lazyload. 
 * More comment for spring side.
 * Add More Unit Test
 * Swagger
 * Sonar
+* Authorization and Authentication.
+* API Gateway(If caching, security and traceability are desired, one more layer can be added and an API Gateway)
 <!-- ROADMAP -->
 ## Roadmap
 
