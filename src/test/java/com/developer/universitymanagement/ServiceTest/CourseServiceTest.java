@@ -16,6 +16,9 @@ import org.springframework.test.context.junit4.SpringRunner;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
+/**
+ * Course Service Test Class
+ */
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class CourseServiceTest {
